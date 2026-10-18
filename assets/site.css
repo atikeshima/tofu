@@ -150,4 +150,11 @@ footer a{color:var(--ink-soft)}
 .help h1,.help h2{word-break:auto-phrase}
 .sym{font-family:"Noto Music","Apple Symbols","Segoe UI Symbol",sans-serif;font-weight:400;font-size:1.2em;line-height:1}
 .dl{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.appstore{display:inline-block;padding:12px;margin:-12px}
+.appstore img{display:block;height:48px;width:auto}
+.storelink{color:var(--sage-deep);font-weight:700;display:inline-flex;align-items:center;min-height:44px}
+.lang{display:inline-flex;flex-direction:column;justify-content:center;min-height:58px;min-width:160px;padding:8px 24px;border:2px solid var(--on-sage);border-radius:12px;color:var(--on-sage);text-decoration:none}
+.lang small{font-size:12px;opacity:.85}
+.lang b{font-size:22px;line-height:1.2}
+.lang:hover,.lang:focus-visible{background:rgba(255,255,255,.12)}
 .help .acc{font-family:"Noto Music","Apple Symbols","Segoe UI Symbol",sans-serif;font-weight:400}
