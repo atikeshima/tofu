@@ -153,6 +153,11 @@ footer a{color:var(--ink-soft)}
 .appstore{display:inline-block;padding:12px;margin:-12px}
 .appstore img{display:block;height:48px;width:auto}
 .storelink{color:var(--sage-deep);font-weight:700;display:inline-flex;align-items:center;min-height:44px}
+.hcta{margin-top:48px;padding:24px;border:1px solid var(--line);border-radius:16px;display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+.hcta .hcta-icon{width:64px;height:64px;border-radius:14px;flex:none}
+.hcta .hcta-text{flex:1 1 260px;min-width:0}
+.hcta .hcta-text b{display:block;font-size:17px;margin-bottom:4px}
+.hcta .hcta-text span{font-size:14px;color:var(--ink-soft)}
 .lang{display:inline-flex;flex-direction:column;justify-content:center;min-height:58px;min-width:160px;padding:8px 24px;border:2px solid var(--on-sage);border-radius:12px;color:var(--on-sage);text-decoration:none}
 .lang small{font-size:12px;opacity:.85}
 .lang b{font-size:22px;line-height:1.2}
