@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://atikeshima.github.io/tofu/sitemap.xml

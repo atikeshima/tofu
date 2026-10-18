@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Tofu 灯譜 ― iPad でコード譜を作って演奏するアプリ（無料）</title>
+<meta name="description" content="コードと歌詞だけのコード譜を、手元の楽譜からすばやく作れる iPad の無料アプリ。移調、PDF の楽譜の取り込み、フットペダルの譜めくり、セットリスト、メトロノームとチューナー。">
+<link rel="canonical" href="https://atikeshima.github.io/tofu/ja/">
+<link rel="alternate" hreflang="ja" href="https://atikeshima.github.io/tofu/ja/">
+<link rel="alternate" hreflang="en" href="https://atikeshima.github.io/tofu/en/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tofu 灯譜 ― iPad でコード譜を作って演奏するアプリ（無料）">
+<meta property="og:description" content="コードと歌詞だけのコード譜を、手元の楽譜からすばやく作れる iPad の無料アプリ。移調、PDF の楽譜の取り込み、フットペダルの譜めくり、セットリスト、メトロノームとチューナー。">
+<meta property="og:image" content="https://atikeshima.github.io/tofu/assets/img/icon.jpg">
+<meta property="og:url" content="https://atikeshima.github.io/tofu/ja/">
+<link rel="icon" href="../assets/img/icon-64.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Music&text=%E2%99%AD%E2%99%AF%E2%99%AE&display=swap">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<section class="hero"><div class="wrap">
+  <header>
+    <a class="brand" href="./"><img src="../assets/img/icon-64.jpg" width="64" height="64" alt="">Tofu 灯譜</a>
+    <nav aria-label="サイトの案内"><a href="#features">できること</a><a href="help/">使い方</a><a href="https://atikeshima.github.io/tofu-privacy/">プライバシーポリシー</a><a href="https://atikeshima.github.io/tofu-privacy/support">サポート</a><a href="../en/">English</a></nav>
+  </header>
+  <div class="hero-body">
+    <div class="text">
+      <h1>コード譜を、すばやく作って、そのまま弾く。</h1>
+      <p class="lead">コードと歌詞だけの譜面を作る iPad のアプリです。五線譜は書きません。手元の楽譜を、そのまま書き写せます。</p>
+      <div class="cta">
+        <a class="badge" href="https://apps.apple.com/app/id6810997579" aria-label="App Store で入手"><span><small>ダウンロード</small><b>App Store</b></span></a>
+        <span>無料・広告なし・iPad</span>
+      </div>
+    </div>
+    <div class="icon"><img src="../assets/img/icon.jpg" width="440" height="440" alt="Tofu 灯譜のアイコン。若草色の地に、十字の入った白い豆腐"></div>
+  </div>
+</div></section>
+
+<section class="sheet" aria-label="キーを変えてみる"><div class="wrap">
+  <p class="say">− ＋ で、キーを変えてみてください。</p>
+  <p class="say2">4小節のコードが、その場で半音ずつ移調されます。アプリでも、1回押すだけです。</p>
+  <div class="card">
+  <div class="keybar">
+    <span class="pill"><button id="down" type="button" aria-label="半音下げる">−</button><span class="key" id="key" aria-live="polite">キー C</span><button id="up" type="button" aria-label="半音上げる">＋</button></span>
+    <button id="reset" class="reset" type="button">元のキー</button>
+  </div>
+  <div class="bars" id="bars" data-key="キー" data-orig="（元は C）" data-lyrics='["消せるインクで", "キーはいつでも変えられる", "だれの声にも合わせられる", "ひらけばそこに"]'></div>
+  </div>
+</div></section>
+
+<main id="features">
+<section class="sec"><div class="wrap">
+  <div class="text">
+    <img class="cube" src="../assets/img/icon-64.jpg" width="64" height="64" alt="">
+    <h2>小節を押して、音名と種類を選ぶだけ。</h2>
+    <p>その曲で使ったコードは、多い順に並びます。同じコードは1回押すだけ。</p>
+    <p>ジャズ式（C-7、C<span class="dl">Δ</span>7）と標準表記（Cm7、Cmaj7）を、曲ごとに選べます。</p>
+  </div>
+  <figure class="shot"><picture><source media="(max-width:760px)" srcset="../assets/img/chord-pad-top.jpg"><img src="../assets/img/chord-pad.jpg" width="760" height="708" alt="コード入力の盤。この曲で使ったコード、音名、種類のボタンが並ぶ" loading="lazy"></picture><figcaption>コード入力の盤</figcaption></figure>
+</div></section>
+<section class="sec flip"><div class="wrap">
+  <div class="text">
+    <img class="cube" src="../assets/img/icon-64.jpg" width="64" height="64" alt="">
+    <h2>歌詞はまとめて貼って、紙にも出せる。</h2>
+    <p>歌詞を一度に貼り付けて、小節へ流し込めます。1番と2番は同じ小節に重ねて持てます。</p>
+    <p>PDF で出す形は4種類。コード＋歌詞、コードのみ、歌詞カード、歌詞の上にコードを載せる歌本スタイル。</p>
+  </div>
+  <figure class="shot"><img src="../assets/img/utahon.jpg" width="900" height="630" alt="歌本スタイル。歌詞の上にコードが載り、1番と2番が並ぶ" loading="lazy"><figcaption>歌本スタイル</figcaption></figure>
+</div></section>
+<section class="sec"><div class="wrap">
+  <div class="text">
+    <img class="cube" src="../assets/img/icon-64.jpg" width="64" height="64" alt="">
+    <h2>手持ちの PDF の楽譜も、1つにまとめる。</h2>
+    <p>PDF のファイル、カメラ、写真から取り込めます。ページの並べ替え、切り取り、回す、斜めを直す、もできます。</p>
+    <p>鉛筆の譜面の写真は「くっきりさせる」で読みやすく。演奏中に、ペンで丸や印を書き込めます。</p>
+  </div>
+  <figure class="shot"><img src="../assets/img/pdf-ink.jpg" width="900" height="589" alt="PDF の譜面に、赤いペンの丸と黄色い蛍光ペンを書き込んだところ" loading="lazy"><figcaption>PDF の譜面に、手書きで書き込んだところ</figcaption></figure>
+</div></section>
+<section class="sec flip"><div class="wrap">
+  <div class="text">
+    <img class="cube" src="../assets/img/icon-64.jpg" width="64" height="64" alt="">
+    <h2>本番は、ペダルでめくりながら。</h2>
+    <p>フットペダル、画面の端を押す、横に払う、のどれかでめくれます。D.S. や to Coda を押すと、飛び先のページへ。</p>
+    <p>メトロノームは、音と、振れるメーターと、画面の縁の光で拍を見せます。チューナーもあります。</p>
+  </div>
+  <figure class="shot glow"><img src="../assets/img/perform-metronome.jpg" width="900" height="577" alt="演奏用の表示の上の帯。テンポ80のメトロノームと、拍に合わせて光る画面の縁" loading="lazy"><figcaption>演奏用の表示。拍に合わせて、画面の縁が光る</figcaption></figure>
+</div></section>
+<section class="sec"><div class="wrap">
+  <div class="text">
+    <img class="cube" src="../assets/img/icon-64.jpg" width="64" height="64" alt="">
+    <h2>セットリストで、曲順もキーも。</h2>
+    <p>曲と PDF の楽譜を演奏する順に並べて、曲をまたいで続けてめくれます。その日だけ、曲ごとにキーを変えられます。</p>
+  </div>
+  <ol class="list" aria-label="セットリストの例">
+    <li><span class="n">1</span><span>オープニング</span><span class="k">B<span class="sym">♭</span></span></li>
+    <li><span class="n">2</span><span>Blues in F</span><span class="k">F</span></li>
+    <li><span class="n">3</span><span>とうふの つかいかた<span class="pdf">PDF</span></span><span class="k"></span></li>
+    <li><span class="n">4</span><span>ゆうぐれ</span><span class="k">C</span></li>
+    <li><span class="n">5</span><span>アンコール</span><span class="k">B<span class="sym">♭</span></span></li>
+  </ol>
+</div></section>
+
+<section class="fine"><div class="wrap">
+  <div class="end"><span class="double" aria-hidden="true"></span><span class="word">Fine</span></div>
+  <p><b>アカウントの登録も、広告も、利用状況の記録もありません。</b>作った曲も、取り込んだ PDF や写真も、iPad の中だけに保存されます。</p>
+  <a class="badge" href="https://apps.apple.com/app/id6810997579" aria-label="App Store で入手"><span><small>ダウンロード</small><b>App Store</b></span></a>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <span>Tofu 灯譜</span>
+  <span><a href="help/">使い方</a> ・ <a href="https://atikeshima.github.io/tofu-privacy/">プライバシーポリシー</a> ・ <a href="https://atikeshima.github.io/tofu-privacy/support">サポート</a> ・ <a href="../en/">English</a></span>
+</div></footer>
+<script src="../assets/transpose.js"></script>
+</body>
+</html>
