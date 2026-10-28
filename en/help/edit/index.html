@@ -17,6 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Music&text=%E2%99%AD%E2%99%AF%E2%99%AE&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined">
 <link rel="stylesheet" href="../../../assets/site.css">
 </head>
 <body>
@@ -32,38 +33,38 @@
 <section class="hitem" id="q1">
   <h2>Copy and paste measures</h2>
   
-  <ol class="steps" aria-label="Steps"><li>Touch and hold the measure you want to copy. You can also tap "Select" in the toolbar and then tap a measure.</li><li>To select several, keep the selection and slide your finger sideways across the measures.</li><li>Tap "Copy". You'll see "Copied 4 measures" or similar.</li><li>Tap the measure just before where you want to paste. That measure becomes the selection.</li><li>Tap "Paste After". The copied measures go in after the selected one.</li><li>Tap "Stop Selecting" when you're done.</li></ol>
-  <ul class="notes" aria-label="Good to know"><li>"Paste After" inserts. Nothing is replaced; the measures after it move along.</li><li>To replace the selected measures instead, tap "Overwrite Selection" and then "Overwrite".</li><li>To select measures that are off screen, scroll first, then touch and hold the last measure.</li><li>Handwriting is not copied.</li><li>When you start selecting, a short tip explains how to select a range.</li></ul>
+  <ol class="steps" aria-label="Steps"><li>Touch and hold the measure you want to copy. You can also tap "Select" in the toolbar and then tap a measure.</li><li>To select several, start from the selected measure and slide your finger sideways across the measures.</li><li>Tap "Copy". You'll see "Copied 4 measures" or similar.</li><li>Tap the measure just before where you want to paste. The earlier selection is cleared and only that measure is selected. The copied measures are still remembered.</li><li>Tap "Paste After". The copied measures go in after the selected one.</li><li>Tap "Stop Selecting" when you're done.</li></ol>
+  <ul class="notes" aria-label="Good to know"><li>"Paste After" inserts. Nothing is replaced; the following measures shift over to make room.</li><li>To replace the selected measures instead, tap "Overwrite Selection". The confirmation shows how many measures will be replaced; tap "Overwrite".</li><li>To extend the selection off screen, scroll, then touch and hold the last measure you want. Everything in between is selected.</li><li>Handwriting is not copied.</li><li>When you start selecting, a short tip explains how to select a range.</li></ul>
   <div class="rel"><span>Related</span><ul><li><a href="#q2">Delete or cut measures</a></li></ul></div>
 </section><section class="hitem" id="q2">
   <h2>Delete or cut measures</h2>
   
   <ol class="steps" aria-label="Steps"><li>Touch and hold a measure to select it. Slide sideways to select a range.</li><li>To delete, tap "Delete". When "Delete the selected measures?" appears, tap "Delete".</li><li>To move measures, tap "Cut". They disappear and are ready to paste.</li><li>Touch and hold the measure just before where they should go, then tap "Paste After".</li></ol>
-  <ul class="notes" aria-label="Good to know"><li>You can't delete every measure in a song. At least one has to stay.</li><li>"Undo" brings deleted measures back.</li><li>To delete just one chord, use "Delete Chord" in the chord entry panel.</li></ul>
+  <ul class="notes" aria-label="Good to know"><li>You can't delete every measure in a song. At least one has to stay.</li><li><span class="mi material-icons" aria-hidden="true" translate="no">undo</span> ("Undo") brings deleted measures back.</li><li>To delete just one chord, use "Delete Chord" in the chord entry panel.</li></ul>
   <div class="rel"><span>Related</span><ul><li><a href="#q1">Copy and paste measures</a></li><li><a href="#q3">Undo a mistake</a></li></ul></div>
 </section><section class="hitem" id="q3">
   <h2>Undo a mistake</h2>
   
-  <ol class="steps" aria-label="Steps"><li>On the chart screen, tap "Undo" at the top right. It's the button with an arrow curving to the left.</li><li>If you went back too far, tap "Redo" next to it, the arrow curving to the right.</li></ol>
+  <ol class="steps" aria-label="Steps"><li>On the chart screen, tap <span class="mi material-icons" aria-hidden="true" translate="no">undo</span> ("Undo") at the top right.</li><li>If you went back too far, tap <span class="mi material-icons" aria-hidden="true" translate="no">redo</span> ("Redo") next to it.</li></ol>
   <ul class="notes" aria-label="Good to know"><li>You can go back up to 20 steps.</li><li>The chord entry panel has the same two buttons at the top.</li><li>The undo history is cleared when you open another song or quit the app.</li></ul>
   
 </section><section class="hitem" id="q4">
   <h2>Write notes on the chart by hand</h2>
   
-  <ol class="steps" aria-label="Steps"><li>Above the chart, switch from "Text" to "Draw".</li><li>The drawing toolbar shows three pens. Each one is shown as a sample of the line it draws.</li><li>Tap a pen and write on the chart.</li><li>To erase, tap "Eraser" and rub over what you want to remove.</li><li>Tap the selected pen again to change its "Color", "Width" and "Opacity".</li><li>Tap "Text" when you're finished.</li></ol>
-  <ul class="notes" aria-label="Good to know"><li>While drawing, scroll the chart with two fingers. One finger draws.</li><li>To clear all handwriting, tap "Delete All Handwriting". "Undo" brings it back.</li><li>Handwriting stays put even if the chart is laid out differently later. If it ends up in the wrong place, erase it and write it again.</li><li>Your pen settings are the same in every song.</li></ul>
+  <ol class="steps" aria-label="Steps"><li>Above the chart, switch the mode from "Text" (normal editing) to "Draw".</li><li>The drawing toolbar shows three pen buttons. Each button shows the color and width of the line that pen draws.</li><li>Tap a pen and write on the chart.</li><li>To erase, tap "Eraser" and drag over what you want to erase.</li><li>Tap the selected pen again to change its "Color", "Width" and "Opacity".</li><li>Tap "Text" when you're finished. This takes you back to normal editing.</li></ol>
+  <ul class="notes" aria-label="Good to know"><li>While drawing, scroll the chart with two fingers. One finger draws.</li><li>To clear all handwriting, tap "Delete All Handwriting" in the drawing toolbar. <span class="mi material-icons" aria-hidden="true" translate="no">undo</span> ("Undo") brings it back.</li><li>Handwriting doesn't move with the measures. It keeps its position from the left edge of the row it was written on, so if measure widths or the measures in a row change, it may no longer line up. If it ends up in the wrong place, erase it and write it again.</li><li>Pen settings are shared across all songs.</li></ul>
   <div class="rel"><span>Related</span><ul><li><a href="../perform/#q7">Write on a PDF score</a></li></ul></div>
 </section><section class="hitem" id="q5">
   <h2>Change the key for the singer</h2>
   
-  <ol class="steps" aria-label="Steps"><li>In the toolbar above the chart, use the buttons on either side of "Transpose".</li><li>The minus (−) button moves down a half step, and the plus (+) button moves up a half step.</li><li>To go back to the original key, tap "Back to Original Key".</li></ol>
-  <ul class="notes" aria-label="Good to know"><li>The song is still stored in its original key. Only what you see changes.</li><li>After transposing, sharps and flats follow the new key.</li><li>Chords you enter while transposed are saved correctly in the original key.</li><li>A setlist can change the key just for one gig.</li></ul>
-  <div class="rel"><span>Related</span><ul><li><a href="../setlists/#q2">Change a song's key for one setlist</a></li></ul></div>
+  <ol class="steps" aria-label="Steps"><li>In the toolbar above the chart, use the <span class="mi material-icons" aria-hidden="true" translate="no">remove</span> and <span class="mi material-icons" aria-hidden="true" translate="no">add</span> buttons on either side of "Transpose".</li><li><span class="mi material-icons" aria-hidden="true" translate="no">remove</span> moves down a half step, and <span class="mi material-icons" aria-hidden="true" translate="no">add</span> moves up a half step.</li><li>To go back to the original key, tap "Back to Original Key".</li></ol>
+  <ul class="notes" aria-label="Good to know"><li>Tofu keeps the chords you entered. Transposing only changes how they're shown on screen and in PDFs.</li><li>After transposing, sharps and flats follow the new key.</li><li>You can enter chords in the transposed key. Tofu converts them, so they're correct when you go back to the original key.</li><li>A setlist can change the key just for one gig.</li></ul>
+  <div class="rel"><span>Related</span><ul><li><a href="../setlists/#q3">Change a song's key for one setlist</a></li></ul></div>
 </section><section class="hitem" id="q6">
   <h2>The toolbar disappeared</h2>
   
-  <ol class="steps" aria-label="Steps"><li>Scroll the chart all the way back to the top. The toolbar (the row with "+4 Measures", "Edit All at Once" and so on) comes back.</li><li>To keep it showing all the time, tap the "…" button on the chart screen.</li><li>Check "Always Show Toolbar".</li></ol>
-  <ul class="notes" aria-label="Good to know"><li>The toolbar hides when you scroll further into the chart, so you can see more of it.</li><li>The buttons for a selection and the drawing toolbar don't hide.</li><li>When the toolbar hides, a note at the top of the chart explains how to get it back. Tap "Got It" and it won't show again.</li></ul>
+  <ol class="steps" aria-label="Steps"><li>Scroll the chart all the way back to the top. The toolbar (the row with "+4 Measures", "Edit All at Once" and so on) comes back.</li><li>To keep it showing all the time, tap <span class="mi material-icons" aria-hidden="true" translate="no">more_horiz</span> at the top right of the chart screen.</li><li>Turn on "Always Show Toolbar".</li></ol>
+  <ul class="notes" aria-label="Good to know"><li>The toolbar hides when you scroll down, to give the chart more room.</li><li>The row of buttons you get while measures are selected ("Copy", "Delete" and so on) and the drawing toolbar don't hide.</li><li>When the toolbar hides, a note at the top of the chart explains how to get it back. Tap "Got It" and it won't show again.</li></ul>
   
 </section>
 <nav class="pn" aria-label="Help contents"><a class="prev" href="../symbols/"><small>Previous</small>Signs and measures</a><a class="next" href="../import/"><small>Next</small>Bringing in printed music</a></nav>

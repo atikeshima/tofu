@@ -4,19 +4,20 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>紙の楽譜を取り込みたい ― Tofu 灯譜 の使い方</title>
-<meta name="description" content="Tofu 灯譜（iPad のコード譜アプリ）の使い方：PDF の楽譜の取り込み、紙の楽譜をカメラで撮る・写真から取り込む方法、取り込んだページの並べ替え・余白の切り取り・回転・斜めの直し・くっきりさせる方法、紙のコード譜を AI で編集できる曲にする方法、PDF の譜面の名前の変更と共有">
+<meta name="description" content="Tofu 灯譜（iPad のコード譜アプリ）の使い方：PDF の楽譜の取り込み、紙の楽譜をカメラで撮る・写真から取り込む方法、取り込んだページの並べ替え・余白の切り取り・回転・斜めの直し・くっきりさせる方法、紙のコード譜を AI で編集できる曲にする方法、PDF の譜面の名前の変更と共有、iReal Pro などの曲を MusicXML から取り込む方法">
 <link rel="canonical" href="https://atikeshima.github.io/tofu/ja/help/import/">
 <link rel="alternate" hreflang="ja" href="https://atikeshima.github.io/tofu/ja/help/import/">
 <link rel="alternate" hreflang="en" href="https://atikeshima.github.io/tofu/en/help/import/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="紙の楽譜を取り込みたい ― Tofu 灯譜 の使い方">
-<meta property="og:description" content="Tofu 灯譜（iPad のコード譜アプリ）の使い方：PDF の楽譜の取り込み、紙の楽譜をカメラで撮る・写真から取り込む方法、取り込んだページの並べ替え・余白の切り取り・回転・斜めの直し・くっきりさせる方法、紙のコード譜を AI で編集できる曲にする方法、PDF の譜面の名前の変更と共有">
+<meta property="og:description" content="Tofu 灯譜（iPad のコード譜アプリ）の使い方：PDF の楽譜の取り込み、紙の楽譜をカメラで撮る・写真から取り込む方法、取り込んだページの並べ替え・余白の切り取り・回転・斜めの直し・くっきりさせる方法、紙のコード譜を AI で編集できる曲にする方法、PDF の譜面の名前の変更と共有、iReal Pro などの曲を MusicXML から取り込む方法">
 <meta property="og:image" content="https://atikeshima.github.io/tofu/assets/img/icon.jpg">
 <meta property="og:url" content="https://atikeshima.github.io/tofu/ja/help/import/">
 <link rel="icon" href="../../../assets/img/icon-64.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Music&text=%E2%99%AD%E2%99%AF%E2%99%AE&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined">
 <link rel="stylesheet" href="../../../assets/site.css">
 </head>
 <body>
@@ -27,38 +28,44 @@
 <main class="help"><div class="wrap">
 <p class="crumb"><a href="../">使い方</a></p>
 <h1>紙の楽譜を取り込みたい</h1>
-<p class="hlead">PDF の楽譜の取り込み、紙の楽譜をカメラで撮る・写真から取り込む方法、取り込んだページの並べ替え・余白の切り取り・回転・斜めの直し・くっきりさせる方法、紙のコード譜を AI で編集できる曲にする方法、PDF の譜面の名前の変更と共有</p>
-<nav class="toc" aria-label="このページの項目"><ul><li><a href="#q1">PDF の楽譜を取り込みたい</a></li><li><a href="#q2">紙の楽譜をカメラで撮って取り込みたい</a></li><li><a href="#q3">取り込んだページを並べ替えたい・余白を切りたい</a></li><li><a href="#q4">紙のコード譜を、編集できる曲として取り込みたい（AI を使う）</a></li><li><a href="#q5">PDF の譜面の名前を変えたい・人に渡したい</a></li></ul></nav>
+<p class="hlead">PDF の楽譜の取り込み、紙の楽譜をカメラで撮る・写真から取り込む方法、取り込んだページの並べ替え・余白の切り取り・回転・斜めの直し・くっきりさせる方法、紙のコード譜を AI で編集できる曲にする方法、PDF の譜面の名前の変更と共有、iReal Pro などの曲を MusicXML から取り込む方法</p>
+<nav class="toc" aria-label="このページの項目"><ul><li><a href="#q1">PDF の楽譜を取り込みたい</a></li><li><a href="#q2">紙の楽譜をカメラで撮って取り込みたい</a></li><li><a href="#q3">取り込んだページを並べ替えたい・余白を切りたい</a></li><li><a href="#q4">紙のコード譜を、編集できる曲として取り込みたい（AI を使う）</a></li><li><a href="#q5">PDF の譜面の名前を変えたい・人に渡したい</a></li><li><a href="#q6">iReal Pro などの曲を、MusicXML から取り込みたい</a></li></ul></nav>
 <section class="hitem" id="q1">
   <h2>PDF の楽譜を取り込みたい</h2>
   
   <ol class="steps" aria-label="手順"><li>曲の一覧の右上の「取り込む」を押す</li><li>「PDF の譜面」の「PDF を取り込む（ファイルから）」を押す</li><li>ファイルを選ぶ画面で、PDF を選ぶ。いくつでも選べる</li><li>「ページの確認」の画面が開く。「名前」とページの並びを確かめる</li><li>右上の「完了」を押す</li></ol>
-  <ul class="notes" aria-label="知っておくこと"><li>2つ以上の PDF を選んだときは、「ページの確認」の画面は出ない。取り込んだ数が出る</li><li>取り込みをやめるときは、「ページの確認」の左上の「キャンセル」を押し、「取り込みをやめる」を押す</li><li>PDF の譜面は、移調できない。コードを入れ直す曲にはならない</li><li>一覧の PDF の譜面を押すと、すぐ演奏用の画面が開く</li></ul>
+  <ul class="notes" aria-label="知っておくこと"><li>2つ以上の PDF を選んだときは、「ページの確認」の画面は出ない。取り込んだ数が出る</li><li>取り込みをやめるときは、「ページの確認」の左上の「キャンセル」を押し、「取り込みをやめる」を押す</li><li>PDF の譜面には、コードを入れられない。移調もできない</li><li>一覧の PDF の譜面を押すと、すぐ演奏用の画面が開く</li></ul>
   <div class="rel"><span>関係する項目</span><ul><li><a href="#q3">取り込んだページを並べ替えたい・余白を切りたい</a></li></ul></div>
 </section><section class="hitem" id="q2">
   <h2>紙の楽譜をカメラで撮って取り込みたい</h2>
   
-  <ol class="steps" aria-label="手順"><li>曲の一覧の右上の「取り込む」を押し、「カメラで撮る」を押す。撮ってある写真なら「写真から選ぶ」</li><li>ページを続けて撮る。撮り終えたら、iPad のスキャンの画面を終える</li><li>「写真をくっきりさせますか？」と出たら、「くっきりさせる」か「そのまま」を押す</li><li>カメラで撮ったときは「写真アプリにも保存しますか？」と出る。「保存する」か「保存しない」を押す</li><li>「ページの確認」の画面で、名前とページを確かめ、「完了」を押す</li></ol>
-  <ul class="notes" aria-label="知っておくこと"><li>「くっきりさせる」は、紙を白く、鉛筆の線を濃くする。迷ったら「そのまま」でよい。後からページごとに直せる</li><li>くっきりさせている間に「くっきりさせずに取り込む」を押すと、元の写真のまま取り込む</li><li>「キャンセル」を押すと、取り込みそのものをやめる</li><li>書類のスキャンが使えない iPad では、「カメラで撮る」は出ない</li><li>1回に撮れる枚数には、iPad の書類のスキャンの上限がある（24枚で止まった）。続きは、「ページの確認」の画面の「カメラで撮って追加」で足せる</li><li>「カメラを使えません。」と出たら、「設定を開く」を押し、Tofu のカメラを許可する <span class="since">1.5.0 から</span></li><li>「写真アプリに残せませんでした。」と出たときも、「設定を開く」で Tofu の写真を許可する。譜面の取り込みはできている</li></ul>
+  <ol class="steps" aria-label="手順"><li>曲の一覧の右上の「取り込む」を押し、「カメラで撮る」を押す。撮ってある写真なら「写真から選ぶ」</li><li>ページを続けて撮る。撮り終えたら、iPad のスキャンの画面の「保存」を押す</li><li>「写真をくっきりさせますか？」と出たら、「くっきりさせる」か「そのまま」を押す</li><li>カメラで撮ったときは「写真アプリにも保存しますか？」と出る。「保存する」か「保存しない」を押す</li><li>「ページの確認」の画面で、名前とページを確かめ、「完了」を押す</li></ol>
+  <ul class="notes" aria-label="知っておくこと"><li>「くっきりさせる」は、紙を白く、鉛筆の線を濃くする。迷ったら「そのまま」でよい。後からページごとに直せる</li><li>くっきりさせている間に「くっきりさせずに取り込む」を押すと、元の写真のまま取り込む。「キャンセル」を押すと、取り込みそのものをやめる</li><li>「取り込む」の中に「カメラで撮る」が無いときは、その iPad では書類のスキャンが使えない</li><li>1回に撮れる枚数には、iPad の書類のスキャンの上限がある（試したときは24枚で止まった）。続きは、「ページの確認」の画面の「カメラで撮って追加」で足せる</li><li>「カメラを使えません。…」と出たら、「設定を開く」を押し、Tofu のカメラを許可する</li><li>「写真アプリに残せませんでした。…」と出たときも、「設定を開く」で Tofu の写真を許可する。譜面の取り込みはできている</li></ul>
   
 </section><section class="hitem" id="q3">
   <h2>取り込んだページを並べ替えたい・余白を切りたい</h2>
   
-  <ol class="steps" aria-label="手順"><li>一覧で PDF の譜面を押す。演奏用の画面が開く</li><li>左右の端（約3cm）より内側を押して演奏メニューを出し、「ページの編集」を押す</li><li>並べ替えるときは、ページの下の「≡」を押さえたまま、移したい所まで動かす</li><li>余白を切るときは、ページの下の「余白を切り取る」を押す。かぎ形が2つ重なった印のボタン</li><li>枠の角や辺を動かして残す範囲を決め、「完了」を押す</li><li>回す・斜めを直す・くっきりさせる・撮り直す・消すときは、ページの下の「…」を押して選ぶ</li><li>終えたら右上の「完了」を押す</li></ol>
-  <ul class="notes" aria-label="知っておくこと"><li>「…」の中は「前へ」「後ろへ」「左に回転」「右に回転」「斜めを直す」「くっきりさせる」「撮り直す」「このページを削除」</li><li>余白は「すべてのページに適用」で、全部のページを同じ枠で切れる</li><li>全部のページをくっきりさせるなら「すべてのページをくっきりさせる」を押す</li><li>ページを足すときは「カメラで撮って追加」か「写真から追加」を押す</li><li>どの直しも、元の PDF は変わらない。取り消し・やり直しもできる</li><li>左上の「キャンセル」を押すと、開いてから変えたものを全部戻す</li><li>ページの絵を押すと、大きく見られる。絵の左右の端の丸い「‹」「›」で前後のページへ送れる</li></ul>
+  <ol class="steps" aria-label="手順"><li>一覧で PDF の譜面を押す。演奏用の画面が開く</li><li>画面の真ん中あたりを押して（左右の端の約3cmはページをめくる所）演奏メニューを出し、「ページの編集」を押す</li><li>並べ替えるときは、ページの下の <span class="mi material-icons" aria-hidden="true" translate="no">drag_handle</span> を押さえたまま、移したい所まで動かす</li><li>余白を切るときは、ページの下の <span class="mi material-icons" aria-hidden="true" translate="no">crop</span>（「余白を切り取る」）を押す</li><li>枠の角や辺を動かして残す範囲を決め、「完了」を押す</li><li>回す・斜めを直す・くっきりさせる・撮り直す・消すときは、ページの下の <span class="mi material-icons" aria-hidden="true" translate="no">more_horiz</span> を押して選ぶ</li><li>終えたら右上の「完了」を押す</li></ol>
+  <ul class="notes" aria-label="知っておくこと"><li><span class="mi material-icons" aria-hidden="true" translate="no">more_horiz</span> の中は「前へ」「後ろへ」（ページの順を1つ動かす）「左に回転」「右に回転」「斜めを直す」「くっきりさせる」「撮り直す」「このページを削除」</li><li>余白は「すべてのページに適用」で、全部のページを同じ枠で切れる</li><li>全部のページをくっきりさせるなら「すべてのページをくっきりさせる」を押す</li><li>ページを足すときは「カメラで撮って追加」か「写真から追加」を押す</li><li>どの直しも、元の PDF は変わらない。取り消し・やり直しもできる</li><li>左上の「キャンセル」を押すと、開いてから変えたものを全部戻す</li><li>ページの縮小画像を押すと、大きく見られる。画像の左右の端の <span class="mi material-icons" aria-hidden="true" translate="no">chevron_left</span> <span class="mi material-icons" aria-hidden="true" translate="no">chevron_right</span> で前後のページへ送れる</li></ul>
   <div class="rel"><span>関係する項目</span><ul><li><a href="#q5">PDF の譜面の名前を変えたい・人に渡したい</a></li></ul></div>
 </section><section class="hitem" id="q4">
   <h2>紙のコード譜を、編集できる曲として取り込みたい（AI を使う）</h2>
   
-  <ol class="steps" aria-label="手順"><li>曲の一覧の右上の「取り込む」を押し、「AI から取り込む」を押す</li><li>「プロンプトをコピー」を押す</li><li>使っている AI のアプリやサイトに、コピーした文を貼り付け、手元の譜面の写真と一緒に渡す</li><li>AI の返事を、最初から最後までコピーする。返事のデータは、手直しせずにそのままコピーする</li><li>Tofu に戻り、「AI の返事を貼り付ける」を押す</li><li>「取り込む内容」で、曲名・原調・小節の数を確かめ、右上の「取り込む」を押す</li><li>曲の譜面が開く。曲名やコードを、元の譜面と見比べる</li></ol>
-  <ul class="notes" aria-label="知っておくこと"><li>アプリは AI と直接やりとりしない。AI に渡すのは、自分の操作である</li><li>「直したところ（数件）」が出たら、見比べるときに先にそこを見る</li><li>貼り間違えたときは「貼り直す」を押す</li><li>取り込めないときは「取り込めませんでした（数件）」と理由が出る。いまある曲は何も変わらない</li><li>理由は「理由を全部コピー」でコピーできる</li></ul>
+  <ol class="steps" aria-label="手順"><li>曲の一覧の右上の「取り込む」を押し、「AI から取り込む」を押す</li><li>「プロンプトをコピー」を押す。AI に渡すお願いの文（プロンプト）がコピーされる</li><li>使っている AI のアプリやサイトに、コピーした文を貼り付け、手元の譜面の写真と一緒に渡す</li><li>AI の返事を、最初から最後までコピーする。返事のデータは、手直しせずにそのままコピーする</li><li>Tofu に戻り、「AI の返事を貼り付ける」を押す</li><li>「取り込む内容」で、曲名・原調・小節の数を確かめ、右上の「取り込む」を押す</li><li>曲の譜面が開く。曲名やコードを、元の譜面と見比べる</li></ol>
+  <ul class="notes" aria-label="知っておくこと"><li>アプリは AI と直接やりとりしない。AI に渡すのは、自分の操作である</li><li>Tofu が直したところがあると「直したところ（数件）」と出る。見比べるときは、先にそこを見る</li><li>貼り間違えたときは「貼り直す」を押す</li><li>取り込めないときは「取り込めませんでした（数件）」と理由が出る。いまある曲は何も変わらない</li><li>理由は「理由を全部コピー」でコピーできる</li></ul>
   
 </section><section class="hitem" id="q5">
   <h2>PDF の譜面の名前を変えたい・人に渡したい</h2>
   <p class="works">PDF の譜面。このアプリで作った曲は「<a href="../start/#q3">曲名・キー・拍子・テンポを直したい</a>」を見る</p>
-  <ol class="steps" aria-label="手順"><li>一覧で PDF の譜面を押す。演奏用の画面が開く</li><li>左右の端（約3cm）より内側を押して演奏メニューを出す</li><li>名前を変えるときは「ページの編集」を押し、「名前」を打ち直して「完了」を押す</li><li>人に渡すときは「共有」を押す。iPad の共有の画面で、送り先を選ぶ</li><li>演奏用の画面を閉じるときは、演奏メニューの右の端の「閉じる」を押す</li></ol>
-  <ul class="notes" aria-label="知っておくこと"><li>手を加えていない PDF の譜面は、元の PDF をそのまま渡す。切り取り・書き込み・ページの並べ替えなどをした譜面は、それを重ねた PDF を渡す <span class="since">1.5.0 から</span></li><li>細い窓では、「ページの編集」と「共有」は演奏メニューの「…」の中にある</li><li>複製と削除は、曲の一覧の行の右端の「…」からできる</li><li>後から名前を変えたときは、同じ名前があっても番号は付かない</li></ul>
+  <ol class="steps" aria-label="手順"><li>一覧で PDF の譜面を押す。演奏用の画面が開く</li><li>画面の真ん中あたりを押して、演奏メニューを出す（左右の端の約3cmはページをめくる所）</li><li>名前を変えるときは「ページの編集」を押し、「名前」を打ち直して「完了」を押す</li><li>人に渡すときは「共有」を押す。iPad の共有の画面で、送り先を選ぶ</li><li>演奏用の画面を閉じるときは、演奏メニューの右の端の「閉じる」を押す</li></ol>
+  <ul class="notes" aria-label="知っておくこと"><li>手を加えていない PDF の譜面は、元の PDF をそのまま渡す。切り取り・書き込み・ページの並べ替えなどをした譜面は、それを重ねた PDF を渡す</li><li>画面を分けて幅が狭いときは、「ページの編集」と「共有」は演奏メニューの <span class="mi material-icons" aria-hidden="true" translate="no">more_horiz</span> の中にある</li><li>複製と削除は、曲の一覧の行の右端の <span class="mi material-icons" aria-hidden="true" translate="no">more_horiz</span> からできる</li><li>後から名前を変えたときは、同じ名前の曲や PDF の譜面があっても、「(2)」のような番号は付かない</li></ul>
   <div class="rel"><span>関係する項目</span><ul><li><a href="../start/#q4">曲を複製したい・削除したい</a></li></ul></div>
+</section><section class="hitem" id="q6">
+  <h2>iReal Pro などの曲を、MusicXML から取り込みたい</h2>
+  <p class="works">iReal Pro などが書き出した MusicXML のファイル（ファイル名の終わりが「.musicxml」か「.xml」）</p>
+  <ol class="steps" aria-label="手順"><li>iReal Pro で曲を開き、共有で MusicXML を選んで書き出す。共有の画面で Tofu を押す <span class="since">1.6.0 から</span></li><li>Tofu に「MusicXML から取り込む」の画面が出る</li><li>「取り込む内容」で、曲名・原調・小節の数・セクションを確かめる</li><li>「取り込む前に知っておくこと」を読み、右上の「取り込む」を押す</li><li>取り込んだ曲の譜面が開く。元の譜面と見比べる</li></ol>
+  <ul class="notes" aria-label="知っておくこと"><li>ファイル App に保存した MusicXML は、曲の一覧の「取り込む」の「MusicXML（iReal Pro など）」から選ぶ</li><li>新しい曲として入る。いまある曲は変わらない</li><li>何も無い小節と N.C. の小節は MusicXML に出ないので、小節が減ることがある。テンポは入らない</li><li>キーは、iReal Pro で書き出したときに画面に出ていたキー（移調していれば、移調した後のキー）で入る</li><li>iReal Pro は、複縦線の付いたセクションだけを書き出す。セクションが足りないときは、iReal Pro でセクションの前を複縦線にしてから書き出し直す</li><li>Tofu に無いコードの種類は、根音（ルート）だけで入る。どのコードかは、取り込む前の画面に出る</li><li>圧縮した MusicXML（ファイル名の終わりが「.mxl」）は取り込めない</li><li>取り込まないときは「キャンセル」を押す</li></ul>
+  <div class="rel"><span>関係する項目</span><ul><li><a href="../share/#q3">iReal Pro に送りたい</a></li></ul></div>
 </section>
 <nav class="pn" aria-label="使い方の目次"><a class="prev" href="../edit/"><small>前のページ</small>譜面を直したい</a><a class="next" href="../perform/"><small>次のページ</small>本番で演奏したい</a></nav>
 <aside class="hcta" aria-label="App Store からダウンロード"><img class="hcta-icon" src="../../../assets/img/icon-64.jpg" width="64" height="64" alt=""><div class="hcta-text"><b>Tofu 灯譜 は、コードと歌詞だけの譜面を作る iPad の無料アプリです。</b><span>手元の楽譜を書き写して移調し、PDF の譜面と一緒にセットリストで演奏できます。広告なし・登録なし。</span></div><a class="appstore" href="https://apps.apple.com/app/id6810997579"><img src="../../../assets/img/app-store-badge-ja.svg" width="131" height="48" alt="App Store からダウンロード"></a></aside>

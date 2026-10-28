@@ -109,6 +109,10 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;
 footer a{color:var(--ink-soft)}
 @media (prefers-reduced-motion:reduce){.ch{transition:none}}
 
+.mi{font-size:1.4em;vertical-align:-.3em;line-height:1;color:var(--ink);margin:0 .06em}
+.sec .points{list-style:none;padding:0;margin:0;max-width:30em}
+.sec .points li{position:relative;padding-left:1.15em;margin:0 0 10px;color:var(--ink-soft)}
+.sec .points li::before{content:"";position:absolute;left:0;top:.62em;width:.48em;height:.48em;border-radius:2px;background:var(--sage)}
 /* 使い方のページ：細い若草色の帯と、読みやすい1段組み。手順は丸い番号、1.4.0 からの所は琥珀色の札 */
 :root{--amber-ink:#1c2119}
 .hbar{background:var(--sage);color:var(--on-sage)}
